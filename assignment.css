@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-color: rgb(2, 37, 30);
+    font-family: 'Oxygen', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+#logo {
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 150%;
+}
+.navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+.navbar-nav a:hover {
+    background: seagreen;
+    color:white;
+    border: 1px solid white;
+}
+.navbar-nav a {
+    font-size: 1.4em;
+    color: seagreen;
+}
+h1 {
+    text-align: center;
+    padding: 10px 0 3px 0;
+}
+.productName {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid whitesmoke;
+    width: 150px;
+    float: right;
+    margin-left: 650px;
+    background-color: rgb(61, 61, 61);
+}
+.jumbotron {
+    border: 3px solid black;
+}
